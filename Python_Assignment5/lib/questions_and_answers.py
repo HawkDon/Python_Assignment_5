@@ -28,4 +28,6 @@ tasks.get_average(data)
 #tasks.plot1(data)
 
 #tasks.plot2(data)
+print('-------------------------')
 
+tasks.plot3(data)

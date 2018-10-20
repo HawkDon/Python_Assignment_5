@@ -126,3 +126,13 @@ def plot2(data):
     plt.ylim((0,1))
     plt.xlim((0, len(polarity_list)))
     plt.show()
+
+def plot3(data):
+    ufo_seeings_per_state = {}
+    for row in data:
+        if row['country'] == 'us':
+            ufo_seeings_per_state.setdefault(row['state'], 0)
+            ufo_seeings_per_state[row['state']] += 1
+
+
+    

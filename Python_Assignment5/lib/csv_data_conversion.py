@@ -19,6 +19,8 @@ def get_data_set():
                     row_object['month'] = int(row[0:1][0].split('/')[0])
                     row_object['day'] = int(row[0:1][0].split('/')[1])
                     row_object['place'] = row[1:2][0]
+                    row_object['state'] = row[2:3][0]
+                    row_object['country'] = row[3:4][0]
                     row_object['shape'] = row[4:5][0]
                     row_object['duration'] = int(row[5:6][0])
                     row_object['comments'] = str(row[7:8])
