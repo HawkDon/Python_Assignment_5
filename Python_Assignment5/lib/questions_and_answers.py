@@ -25,3 +25,7 @@ tasks.get_average(data)
 
 # På hvilke dage er det sandsynligt at se ufoer(i procentvis fordeling)?
 
+#tasks.plot1(data)
+
+#tasks.plot2(data)
+
