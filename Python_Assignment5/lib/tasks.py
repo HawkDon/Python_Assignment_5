@@ -2,6 +2,10 @@ from collections import Counter
 from textblob import TextBlob
 import datetime
 import matplotlib.pyplot as plt
+import folium as folium
+import pandas as pd
+import os
+import json
 
 def get_most_observationsights(data):
     cnt = Counter()
@@ -130,9 +134,8 @@ def plot2(data):
 def plot3(data):
     ufo_seeings_per_state = {}
     for row in data:
-        if row['country'] == 'us':
-            ufo_seeings_per_state.setdefault(row['state'], 0)
-            ufo_seeings_per_state[row['state']] += 1
+        if row['country'] == 'us' and len(ufo_seeings_per_state) <= 50:
+            ufo_seeings_per_state.setdefault(row['state'].upper(), 0)
+            ufo_seeings_per_state[row['state'].upper()] += 1
 
-
-    
+    print(ufo_seeings_per_state)
