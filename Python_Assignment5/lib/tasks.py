@@ -2,6 +2,7 @@ from collections import Counter
 from textblob import TextBlob
 import datetime
 import matplotlib.pyplot as plt
+
 import folium as folium
 import pandas as pd
 import os
@@ -139,3 +140,26 @@ def plot3(data):
             ufo_seeings_per_state[row['state'].upper()] += 1
 
     print(ufo_seeings_per_state)
+
+    #state_geo = os.path.join('../us-states.json')
+
+    map = folium.Map(location=[48, -102], zoom_start=4)
+    #data = pd.DataFrame(ufo_seeings_per_state, index=[0])
+    #colums = list(ufo_seeings_per_state.keys())
+
+    #map.choropleth(
+    #    geo_data='../us-states.json',
+    #    name='choropleth',
+    #    data=data,
+    #    columns=colums,
+    #    key_on='feature.id',
+    #    fill_color='YlGn',
+    #    fill_opacity=0.7,
+    #    line_opacity=0.2,
+    #    legend_name='UFO'
+    #)
+
+
+    #folium.LayerControl().add_to(map)
+
+    map.save("../usa_map.html")
