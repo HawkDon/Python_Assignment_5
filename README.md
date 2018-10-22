@@ -24,7 +24,7 @@
 ### Plot 2
 ![Alt Text](https://github.com/HawkDon/Python_Assignment_5/blob/master/Python_Assignment5/plot2.PNG)
 
-# How to
+# How to run
 * Clone the repo
 * run questions_and_answers.py
 
