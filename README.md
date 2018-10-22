@@ -28,9 +28,8 @@
 * Clone the repo
 * run questions_and_answers.py
 
-
-
-
-
+# Dependencies
+* pip install -U textblob
+* pip install folium
 
 
