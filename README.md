@@ -7,7 +7,7 @@
 
 ### Hvordan har antallet af observationer udviklet sig over tid?
 * The amount of observations from the lowest year of 1906 was: 1 observations.
-The amount of observations from the highest year of 2014 was: 2256 observations.
+* The amount of observations from the highest year of 2014 was: 2256 observations.
 
 ### Hvornår på året er der flest observationer?
 * most time of the year of observations is month: 7 with: 9497 observations
