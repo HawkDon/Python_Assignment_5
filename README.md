@@ -19,8 +19,10 @@ The amount of observations from the highest year of 2014 was: 2256 observations.
 * The average is: 9046.771600929233 seconds.
 
 ### Plot 1
+![Alt Text](https://github.com/HawkDon/Python_Assignment_5/blob/master/Python_Assignment5/plot1.PNG)
 
 ### Plot 2
+![Alt Text](https://github.com/HawkDon/Python_Assignment_5/blob/master/Python_Assignment5/plot2.PNG)
 
 # How to
 * Clone the repo
