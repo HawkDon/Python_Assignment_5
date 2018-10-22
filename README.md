@@ -19,10 +19,12 @@ The amount of observations from the highest year of 2014 was: 2256 observations.
 * The average is: 9046.771600929233 seconds.
 
 ### Plot 1
-![alt text](https://github.com/EZL1190/Assignment-4/blob/master/img/plot2.PNG)
 
 ### Plot 2
 
+# How to
+* Clone the repo
+* run questions_and_answers.py
 
 
 
